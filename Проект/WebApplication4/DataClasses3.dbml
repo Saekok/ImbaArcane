@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Reg" Class="DataClasses3DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Reg.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="RegConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.RegUsers" Member="RegUsers">
+    <Type Name="RegUsers">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Login" Type="System.String" DbType="NChar(16)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NChar(16)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

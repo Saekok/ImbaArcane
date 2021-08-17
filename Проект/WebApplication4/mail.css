@@ -1,0 +1,33 @@
+﻿h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+.icon-indicator {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+}
+
+.well-flat, .well {
+    min-height: 20px;
+    padding: 19px 19px 19px;
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+    border-radius: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-width: 0px;
+    border-bottom-width: 0px;
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
+    overflow: auto;
+}
